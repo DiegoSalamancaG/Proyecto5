@@ -1,0 +1,13 @@
+/* Contenedor principal del layout */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa al menos toda la altura de la pantalla */
+}
+
+/* Contenedor del contenido principal */
+.main-container {
+  flex-grow: 1; /* Permite que este contenedor crezca para ocupar el espacio disponible */
+  padding: 20px;
+  background-color: #f0f0f0;
+}
